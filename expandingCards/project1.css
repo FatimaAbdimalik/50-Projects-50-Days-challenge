@@ -1,1 +1,8 @@
+.image-size img {
+  width: 30rem;
+  height: 30rem;
+}
 
+.main {
+  display: flex;
+}
