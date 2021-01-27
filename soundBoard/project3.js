@@ -5,7 +5,6 @@ const mainDiv = document.getElementById("main");
 for (let i = 0; i < soundArray.length; i++) {
   let sound = document.createElement("h5");
   sound.innerHTML = soundArray[i];
-  console.log(sound.innerHTML);
   mainDiv.appendChild(sound);
 
   sound.addEventListener("click", () => {
@@ -18,7 +17,6 @@ for (let i = 0; i < soundArray.length; i++) {
 const stopSound = () => {
   soundArray.forEach((item) => {
     const song = document.getElementById(item.toLowerCase());
-    console.log(song);
     song.pause();
     song.currentTime = 0;
   });
