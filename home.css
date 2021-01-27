@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #b34b44;
+}
+
+a {
+  text-decoration: none;
+  border: 1px solid #4b9c9a;
+  padding: 10px 10px 10px 10px;
+  /* margin-top: 1rem; */
+  font-family: "Original Surfer", cursive;
+  color: white;
+  background-color: #4b9c9a;
+  border-radius: 0.5rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+}
+a:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  /* top: 14px;
+  right: -20px; */
+  transition: 0.5s;
+}
+a:hover {
+  background-color: #8c99d4;
+  color: white;
+  border: 1px solid #4b9c9a;
+  transition: 0.5s;
+
+  /* content:  */
+}
+a:hover:after {
+  opacity: 1;
+  /* right: 10px; */
+}
