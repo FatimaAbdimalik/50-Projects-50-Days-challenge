@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+/* center everything in the page by centering everthing in and visual heoght the body or the actual container*/
+
+body {
+  background-color: #8868a6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h5 {
+  margin-right: 3rem;
+  font-family: "Indie Flower", cursive;
+  font-size: 2rem;
+  border: 1px solid #4c205c;
+  padding: 15px 15px 15px 15px;
+  color: white;
+  background-color: #4c205c;
+  border-radius: 1rem;
+}
