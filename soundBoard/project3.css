@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap");
 * {
   padding: 0%;
   margin: 0%;
@@ -9,6 +10,7 @@
 body {
   background-color: #8868a6;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -21,6 +23,7 @@ body {
 
 h5 {
   margin-right: 3rem;
+  margin-top: 1rem;
   font-family: "Indie Flower", cursive;
   font-size: 2rem;
   border: 1px solid #4c205c;
@@ -31,9 +34,23 @@ h5 {
   cursor: pointer;
 }
 h5:hover {
+  transition: all 0.5s;
   background-color: #d6a3e9;
   border: 1px solid #d6a3e9;
   color: black;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-family: "Original Surfer", cursive;
+  font-size: 1.5rem;
+  border: 1px solid white;
+  padding: 25px;
+  background-color: white;
+  border-radius: 1rem;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 900px) {
