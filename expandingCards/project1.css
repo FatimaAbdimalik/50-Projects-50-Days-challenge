@@ -26,6 +26,7 @@ body {
 }
 
 a {
+  margin-top: 1rem;
   text-decoration: none;
   color: white;
   margin-bottom: 1rem;
