@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -12,6 +13,7 @@
 
 body {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -21,4 +23,14 @@ body {
 .main {
   display: flex;
   width: 90vw;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  background-color: #7a328c;
+  padding: 20px;
+  font-family: "Lobster Two", cursive;
 }
