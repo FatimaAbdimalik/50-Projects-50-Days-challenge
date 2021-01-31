@@ -31,7 +31,11 @@ a {
   color: white;
   margin-bottom: 1rem;
   border-radius: 1rem;
-  background-color: #7a328c;
+  background-color: #8888b8;
   padding: 20px;
   font-family: "Lobster Two", cursive;
+}
+a:hover {
+  background-color: #28289c;
+  transition: ease-in-out 2s;
 }
